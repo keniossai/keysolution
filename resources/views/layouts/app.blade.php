@@ -81,7 +81,8 @@
                         <div class="upper-column info-box">
                         	<div class="icon-box"><span class="flaticon-pin"></span></div>
                             <ul>
-								<li>13, Cole Street VI <br> Lagos, Nigeria</li>
+								<li>7,Asa Afariogun Street, Ajao Estate,Lagos.
+                                     <br> Opposite Faith City Hospital </li>
                             </ul>
                         </div>
 
@@ -89,7 +90,7 @@
                         <div class="upper-column info-box">
                         	<div class="icon-box"><span class="flaticon-technology-1"></span></div>
                             <ul>
-								<li>+1 800125 6524 <br> keysolutions.com.ng</li>
+								<li>+2348033493707<br> +2347064884273</li>
                             </ul>
                         </div>
 
@@ -128,15 +129,15 @@
 
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="index.html">Home</a></li>
+                                <li class="current"><a href="/">Home</a></li>
 								<li class="dropdown"><a href="#">About</a>
 									<ul>
-										<li><a href="about.html">About Us</a></li>
+										<li><a href="about">About Us</a></li>
 									</ul>
 								</li>
 								<li class="dropdown"><a href="#">Services</a>
 									<ul>
-										<li><a href="services.html">Services</a></li>
+										<li><a href="service">Services</a></li>
 										<li><a href="lock-stolen.html">Lost or Stolen House Keys</a></li>
 										<li><a href="emergency-lock.html">Emergency 24hr Locksmiths</a></li>
 										<li><a href="boarding-repair.html">Emergency Boarding & Buglary Repair</a></li>
@@ -147,8 +148,8 @@
 										<li><a href="estate-agent.html">Estate Agents</a></li>
 									</ul>
 								</li>
-								<li><a href="faq.html">Faq</a></li>
-								<li><a href="contact.html">Contact us</a></li>
+								<li><a href="faq">Faq</a></li>
+								<li><a href="contact">Contact us</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -229,7 +230,7 @@
 							<!--About Widget-->
 							<div class="footer-widget logo-widget">
 								<div class="logo">
-									<a href="index.html"><img src="images/logo 4.svg" alt="" /></a>
+									<a href="index.html"><img src="{{ asset('assets') }}/images/logo 4.svg" alt="" /></a>
 								</div>
 								<div class="text">We would welcome the opportunity to earn your trust and deliver you the best locksmith service. Don't let that small problem turn into a huge problem. Let us correct minor issues before they end up becoming nightmares or even a life safety issue. </div>
 								<a href="about.html" class="theme-btn btn-style-two">Read More</a>
@@ -305,7 +306,7 @@
 				<div class="auto-container">
 					<div class="row clearfix">
 						<div class="column col-md-6 col-sm-12 col-xs-12">
-							<div class="copyright"><a target="_blank" href="">Copyright © 2020 Key Solutions | All rights reserved.</a></div>
+							<div class="copyright"><a target="_blank" href="">Copyright © <span id="footerYear"></span> Key Solutions | All rights reserved.</a></div>
 						</div>
 						<div class="nav-column col-md-6 col-sm-12 col-xs-12">
 							<ul class="footer-nav">
@@ -336,30 +337,23 @@
     </div>
     <div class="various-color clearfix">
         <div class="colors-list">
-            <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
-            <span class="palate green-color" data-theme-file="css/color-themes/green-theme.css"></span>
-            <span class="palate blue-color" data-theme-file="css/color-themes/blue-theme.css"></span>
-            <span class="palate orange-color" data-theme-file="css/color-themes/orange-theme.css"></span>
-            <span class="palate purple-color" data-theme-file="css/color-themes/purple-theme.css"></span>
-            <span class="palate teal-color" data-theme-file="css/color-themes/teal-theme.css"></span>
-            <span class="palate brown-color" data-theme-file="css/color-themes/brown-theme.css"></span>
-            <span class="palate redd-color" data-theme-file="css/color-themes/redd-color.css"></span>
-			<span class="palate olive-color" data-theme-file="css/color-themes/olive-theme.css"></span>
-            <span class="palate yellow-color" data-theme-file="css/color-themes/yellow-theme.css"></span>
-            <span class="palate pink-color" data-theme-file="css/color-themes/pink-theme.css"></span>
-            <span class="palate hotpink-color" data-theme-file="css/color-themes/hotpink-color.css"></span>
+            <span class="palate default-color active" data-theme-file="{{ asset('assets') }}/css/color-themes/default-theme.css"></span>
+            <span class="palate green-color" data-theme-file="{{ asset('assets') }}/css/color-themes/green-theme.css"></span>
+            <span class="palate blue-color" data-theme-file="{{ asset('assets') }}/css/color-themes/blue-theme.css"></span>
+            <span class="palate orange-color" data-theme-file="{{ asset('assets') }}/css/color-themes/orange-theme.css"></span>
+            <span class="palate purple-color" data-theme-file="{{ asset('assets') }}/css/color-themes/purple-theme.css"></span>
+            <span class="palate teal-color" data-theme-file="{{ asset('assets') }}/css/color-themes/teal-theme.css"></span>
+            <span class="palate brown-color" data-theme-file="{{ asset('assets') }}/css/color-themes/brown-theme.css"></span>
+            <span class="palate redd-color" data-theme-file="{{ asset('assets') }}/css/color-themes/redd-color.css"></span>
+			<span class="palate olive-color" data-theme-file="{{ asset('assets') }}/css/color-themes/olive-theme.css"></span>
+            <span class="palate yellow-color" data-theme-file="{{ asset('assets') }}/css/color-themes/yellow-theme.css"></span>
+            <span class="palate pink-color" data-theme-file="{{ asset('assets') }}/css/color-themes/pink-theme.css"></span>
+            <span class="palate hotpink-color" data-theme-file="{{ asset('assets') }}/css/color-themes/hotpink-color.css"></span>
         </div>
     </div>
 
 	<ul class="box-version option-box"> <li class="box">Boxed</li> <li>Full width</li></ul>
 	<ul class="rtl-version option-box"> <li class="rtl">RTL Version</li> <li>LTR Version</li> </ul>
-
-    <a href="#" class="purchase-btn">Purchase now $17</a>
-
-    <div class="palate-foo">
-        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
-    </div>
-
 </div>
 
 @livewireScripts
@@ -380,7 +374,7 @@
 <script src="js/map-script.js"></script>
 <!--End Google Map APi-->
 
-<script src="js/color-settings.js"></script>
+<script src="{{ asset('assets') }}/js/color-settings.js"></script>
 
 </body>
 
